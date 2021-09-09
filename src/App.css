@@ -63,3 +63,16 @@ ul li {
 .App-link {
   color: #61dafb;
 }
+
+@media (min-width: 1024px) {
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    color: white;
+  }
+}
